@@ -1,3 +1,8 @@
+#The function performs K-Means clustering on the input images using the KMeans class from scikit-learn. 
+#The fit method is called on the images array to fit the K-Means model to the data.
+#kmeans.labels_ is then used to obtain the lables of each image.
+#An empty dictionary called image_labels_mapping to store the mapping between image filenames (or indices) and their corresponding cluster labels.
+
 import os
 import cv2
 import numpy as np
